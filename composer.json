@@ -1,13 +1,13 @@
 {
-  "name": "digitalunited/vc-clean-up",
-  "description": "Visual Composer CleanUp",
-  "keywords": ["wordpress", "plugin", "VisualComposer"],
-  "homepage": "https://github.com/digitalunited/VisualComposerCleanUp",
+  "name": "digitalunited/wp-clean-up",
+  "description": "WordPress Clean up",
+  "keywords": ["WordPress", "plugin", "Clean up"],
+  "homepage": "https://github.com/digitalunited/wp-clean-up",
   "license": "MIT",
   "authors": [
     {
-    "name": "Tim Samuelsson",
-    "email": "tim.samuelsson@careofhaus.se",
+    "name": "Lucas Andersson",
+    "email": "lucas@careofhaus.se",
     "homepage": "http://careofhaus.se"
     }
   ],
