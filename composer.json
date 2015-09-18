@@ -1,7 +1,7 @@
 {
   "name": "digitalunited/wp-clean-up",
   "description": "WordPress Clean up",
-  "keywords": ["WordPress", "plugin", "Clean up"],
+  "keywords": ["WordPress", "plugin", "cleanup"],
   "homepage": "https://github.com/digitalunited/wp-clean-up",
   "license": "MIT",
   "authors": [

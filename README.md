@@ -10,3 +10,4 @@ On activation the plugin creates a file named WpCleanUpConfig.php in your curren
 
 ##TODO
 - Add better standard config for the boilerplate-file.
+- Better readme
