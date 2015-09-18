@@ -1,6 +1,6 @@
 <?php namespace DigitalUnited\WpCleanUp\Commands;
 
-class RemoveDashBoardBoxes extends BaseCommand
+class DashBoardBoxes extends BaseCommand
 {
     public function register() {
         add_action('admin_init', [$this, 'run'], 999);
