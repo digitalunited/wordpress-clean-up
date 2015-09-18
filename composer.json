@@ -1,0 +1,24 @@
+{
+  "name": "digitalunited/vc-clean-up",
+  "description": "Visual Composer CleanUp",
+  "keywords": ["wordpress", "plugin", "VisualComposer"],
+  "homepage": "https://github.com/digitalunited/VisualComposerCleanUp",
+  "license": "MIT",
+  "authors": [
+    {
+    "name": "Tim Samuelsson",
+    "email": "tim.samuelsson@careofhaus.se",
+    "homepage": "http://careofhaus.se"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "autoload"   : {
+    "psr-4": {
+      "DigitalUnited\\WpCleanUp\\": "src/WpCleanUp"
+    }
+  },
+  "require"    : {
+    "php": ">=5.4",
+    "composer/installers": "~1.0"
+  }
+}
