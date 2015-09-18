@@ -7,4 +7,5 @@
 
 ##Configuration
 On activation the plugin creates a file named WpCleanUpConfig.php in your current theme. The file consists of a config-array with the possibility to clean up WordPress without anny manual work.
+
 Edit `WpCleanUpConfig.php` to enable or disable features
