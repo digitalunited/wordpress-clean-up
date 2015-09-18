@@ -1,9 +1,10 @@
 <?php
 /**
- * Plugin Name: WpCleanUp
- * Plugin URI: https://github.com/digitalunited/VisualComposerCleanUp
- * Author: Digital United
- * Author URI: http://digitalunited.io
+ * Plugin Name: WordPress Clean up
+ * Plugin URI: https://github.com/digitalunited/wp-cleanup
+ * Description: A simple plugin that cleans up and removes unnecessary stuff in WordPress
+ * Author: Digital United - Lucas Andersson
+ * Author URI: http://careofhaus.se
  */
 
 

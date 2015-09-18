@@ -1,4 +1,4 @@
-# WordPress clean up #
+# WordPress Clean up #
 
 ##Why?
 This plugin exist because i got tired of copying my customizations on visual composer to every project. Is allso is meant to solve the issue of maintaing Visual Composer customizations on multiple sites wiuth diffrent requirements.
