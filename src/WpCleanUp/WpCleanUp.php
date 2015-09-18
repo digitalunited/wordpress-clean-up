@@ -46,7 +46,7 @@ class WpCleanUp
             $command->register();
         }
         else {
-            throw new \Exception($commandClass . ': Is not a valid WpCleanUpConfig entry');
+            throw new \Exception($commandClass . ': Is not a valid WordPress Clean up Config entry');
         }
     }
 }
