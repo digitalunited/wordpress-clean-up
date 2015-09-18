@@ -1,12 +1,11 @@
 <?php
 /**
- * Plugin Name: WordPress Clean up
- * Plugin URI: https://github.com/digitalunited/wp-cleanup
+ * Plugin Name: Digital United - WordPress Clean up
+ * Plugin URI: https://github.com/digitalunited/wp-clean-up
  * Description: A simple plugin that cleans up and removes unnecessary stuff in WordPress
  * Author: Digital United - Lucas Andersson
  * Author URI: http://careofhaus.se
  */
-
 
 function wpcuCreateCleanupConfigIfNotExists()
 {
