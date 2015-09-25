@@ -3,6 +3,7 @@
  * Plugin Name: WordPress Clean up
  * Plugin URI: https://github.com/digitalunited/wordpress-clean-up
  * Description: A simple plugin that cleans up and removes unnecessary stuff in WordPress
+ * Version: 0.0.3
  * Author: Digital United - Lucas Andersson
  * Author URI: http://careofhaus.se
  */
