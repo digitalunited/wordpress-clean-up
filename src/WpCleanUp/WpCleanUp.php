@@ -10,6 +10,10 @@ class WpCleanUp
 
     function __construct()
     {
+        if (!file_exists($this->getConfigPath())) {
+          return false;
+        }
+
         $this->loadConfig();
     }
 
@@ -28,7 +32,7 @@ class WpCleanUp
             $this->config = include($this->getConfigPath());
         }
         else {
-            throw new \Exception('Could not load Config');
+          return false;
         }
     }
 
