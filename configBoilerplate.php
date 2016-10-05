@@ -6,4 +6,5 @@ return [
     'LogInLogoTitle' => '',
     'DashBoardBoxes' => true,
     'PostTags' => false,
+    'RemoveRestApi' => true,
 ];
