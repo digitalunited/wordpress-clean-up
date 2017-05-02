@@ -3,7 +3,7 @@
 class RemoveRestApi extends BaseCommand
 {
     public function register() {
-        add_action('init', [$this, 'run'], 999);
+        // add_action('init', [$this, 'run'], 999);
     }
 
     public function run()
