@@ -5,6 +5,4 @@
 2. Activate plugin
 
 ##Configuration
-On activation the plugin creates a file named WpCleanUpConfig.php in your current theme. The file consists of a config-array with the possibility to clean up WordPress without any manual work.
-
-Edit `WpCleanUpConfig.php` to enable or disable features
+Copy configBoilerplate.php to WpCleanUpConfig.php in your theme directory and enable/disable featuers there. If there is no WpCleanUpConfig.php in the theme directory, configBoilerpalte will be used instead.

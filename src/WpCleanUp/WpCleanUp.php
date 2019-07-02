@@ -38,7 +38,11 @@ class WpCleanUp
 
     protected function getConfigPath()
     {
-        return get_template_directory() . '/WpCleanUpConfig.php';
+        // Is there a config in templates dir...
+        if (file_exists(get_template_directory() . '/WpCleanUpConfig.php'))
+            return get_template_directory() . '/WpCleanUpConfig.php';
+        // Otherwise just take default settings... 
+        return __DIR__.'/../../configBoilerplate.php';
     }
 
     protected function execute($commandClass, $params)
