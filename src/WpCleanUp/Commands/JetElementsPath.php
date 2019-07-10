@@ -7,8 +7,8 @@ class JetElementsPath extends BaseCommand
         add_filter( 'cx_include_module_url', [$this, 'run'] );
     }
 
-    public function run()
+    public function run($url)
     {
-        register_taxonomy('post_tag', array());
+        return home_url( '/' ) . explode( '/web/', $url )[1];
     }
 }
