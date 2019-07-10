@@ -16,3 +16,11 @@ add_action('init', function() {
     $vcCleanUp = new \DigitalUnited\WpCleanUp\WpCleanUp();
     $vcCleanUp->go();
 });
+
+// This need to run before init...
+add_filter( 'cherry_core_base_url', 'jet_fix_framework_url' );
+add_filter( 'cx_include_module_url', 'jet_fix_framework_url' );
+
+function jet_fix_framework_url( $url ) {
+        return home_url( '/' ) . explode( '/web/', $url )[1];
+}

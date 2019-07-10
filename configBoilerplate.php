@@ -6,5 +6,4 @@ return [
     'LogInLogoTitle' => '',
     'DashBoardBoxes' => true,
     'PostTags' => false,
-    'JetElementsPath' => true,
 ];
